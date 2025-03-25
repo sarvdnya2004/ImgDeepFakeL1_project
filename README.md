@@ -1,7 +1,5 @@
 # 🚨 Deepfake Detection Project - Level 1 🚨
 
-# 🎭 Deepfake Detection - Unmasking the Unseen! 🔍
-
 <img src="https://github.com/user-attachments/assets/b5f05986-4ef9-4a52-8760-e543fd0ab444" alt="App Preview" width="100%">
 
 <hr>
