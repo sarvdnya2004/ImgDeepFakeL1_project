@@ -1,4 +1,5 @@
 # 🚨 Deepfake Detection Project - Level 1 🚨
+🚨 **Can you spot the fake?** This project is designed to detect DeepFake images using AI — our first step towards building a powerful detection system.
 
 <img src="https://github.com/user-attachments/assets/b5f05986-4ef9-4a52-8760-e543fd0ab444" alt="App Preview" width="100%">
 
@@ -9,33 +10,33 @@ Welcome to my **Deepfake Detection** project! This is the **base-level model (Le
 ---
 
 ## 🗂️ Project Overview
-This project leverages **Deep Learning** techniques using **TensorFlow** and **Keras** to build a deepfake detection model. The dataset used contains:
+This project leverages **Deep Learning** techniques using **TensorFlow** and **Keras** to build a deepfake detection model. 
 
-✅ **1000 Real Images**  
-✅ **1000 Fake Images**  
-
-For each of the following datasets:  
-🔹 **Training Set**  
-🔹 **Testing Set**  
-🔹 **Validation Set**  
+## 🌟 What's Inside?
+✅ **`DeepFakeProject1.ipynb`** – Jupyter Notebook for model creation (includes code to save `deepfake_detector.h5`)  
+✅ **`app.py`** – Web app for uploading images and predicting if they're fake or real  
 
 ---
 
-## 📂 Files Included
-- **`deepfake_detector.h5`** - Trained model file for prediction.  
-- **`app.py`** - A simple frontend interface for users to test the model.  
-- **`DeepFakeProject1.ipynb`** - Jupyter Notebook file with the entire model creation process.
+## 🔍 Dataset Used
+📂 Dataset Link: [Deepfake and Real Images on Kaggle](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images)  
+- **1000 Real + 1000 Fake** for Training  
+- **1000 Real + 1000 Fake** for Testing  
+- **1000 Real + 1000 Fake** for Validation  
 
 ---
 
-## 📋 Dataset Source
-The dataset used for training and evaluation is available on Kaggle:  
-🔗 [Deepfake and Real Images Dataset](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images)
+## ⚙️ Model Saving Instructions
+The `.h5` model file is **not included** in this repo to reduce size.  
+✅ To generate `deepfake_detector.h5`, run the **last cell** in the `DeepFakeProject1.ipynb` file — the model will be saved automatically.
 
 ---
 
-## 🚧 Next Steps
-I'm actively working on enhancing this model with improved architecture, better data augmentation techniques, and additional features. The **Level 2** version will be uploaded here soon! 🔥
+## 🚀 Next Steps
+This is our **Level 1** model — a baseline DeepFake detector. Stay tuned for **Level 2** with improved accuracy and advanced features! 🔥
+
+
+💻 **Created with passion and dedication!** If you find this helpful, don't forget to ⭐ the repo! 😊
 
 ---
 
